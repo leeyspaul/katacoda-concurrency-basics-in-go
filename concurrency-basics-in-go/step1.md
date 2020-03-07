@@ -25,7 +25,9 @@ Enough hypothesizing, let's go ahead and see the results. Go ahead and run the f
 
 Now that you've seen the result, let's see what Go has to tell us about the read/write operations with the built in `-race` functionality. 
 
-Run the command `go run -race data_race_example.go`. Compare the output with your answers.
+Run the command `go run -race data_race_example.go`. Compare the output with your answers, if anything is different, change your answers.
 
 # Conclusion
 As you can see Go specifically tells us where our data races are. The `-race` flag is a very useful functionality to use! So next time you're writing concurrent code, test your code with the `-race` flag.
+
+In the next step we'll take a look at how we can avoid data races by blocking with channels as mentioned in the presentation. Once you're ready, click continue, check your answers and let's go!
