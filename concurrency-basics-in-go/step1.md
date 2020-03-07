@@ -10,10 +10,10 @@ As mentioned briefly in the presentation, data races are dangerous because two t
 In Go, we can detect data races with a simple command which we'll reveal in a bit. Before we do that, take a look at the code in `data_race_example.go`. This code definitely has a data race in it. Before we use Go's magical powers to identify where the data race causing culprits are, let's try to identify it ourselves.
 
 >>Q2: In the function `getUserId` what line is a write operation?<<
-=== 25
+=~= 25
 
 >>Q3: In the function `getUserId` what line is a read operation?<<
-=== 28
+=~= 28
 
 >>Q4: Given what you know about where the read/write operations are happening, what do you think the output will be once you run the file `data_race_example.go`?<<
 (*) Output will either be 0 or 137.
