@@ -26,11 +26,11 @@
         "text": "step1.md"
       },
       {
-        "title": "Step 2",
+        "title": "2 - Fixing a data race with channels",
         "text": "step2.md"
       },
       {
-        "title": "Step 3",
+        "title": "3 - Fixing a data race with wait groups",
         "text": "step3.md"
       }
     ],
