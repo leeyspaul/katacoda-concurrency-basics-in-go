@@ -1,7 +1,6 @@
 # Data races are dangerous
 As mentioned briefly in the presentation, data races are dangerous because two threads will access a shared memory location with no synchronization on the accesses.
 
-<pre>
 >>Q1: In order for a data race to occur, one operation must be what?<<
 
 =~= write
@@ -21,4 +20,3 @@ In Go, we can detect data races with a simple command which we'll reveal in a bi
 
 *Go ahead and click "check answer" to see the results!* 
 
-</pre>
