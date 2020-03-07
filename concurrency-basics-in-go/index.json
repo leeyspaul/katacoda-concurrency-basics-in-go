@@ -22,15 +22,15 @@
   	},
     "steps": [
       {
-        "title": "1 - Detecting a data race with Go",
+        "title": "Detecting a data race with Go",
         "text": "step1.md"
       },
       {
-        "title": "2 - Fixing a data race with channels",
+        "title": "Fixing a data race with channels",
         "text": "step2.md"
       },
       {
-        "title": "3 - Fixing a data race with wait groups",
+        "title": "Fixing a data race with wait groups",
         "text": "step3.md"
       }
     ],
