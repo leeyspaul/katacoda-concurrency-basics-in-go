@@ -27,4 +27,5 @@ Now that you've seen the result, let's see what Go has to tell us about the read
 
 Run the command `go run -race data_race_example.go`. Compare the output with your answers.
 
+# Conclusion
 As you can see Go specifically tells us where our data races are. The `-race` flag is a very useful functionality to use! So next time you're writing concurrent code, test your code with the `-race` flag.
