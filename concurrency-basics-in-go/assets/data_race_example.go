@@ -10,7 +10,7 @@ func main() {
 
 	paulUserId := getUserId(paul) // what will this return?
 
-	fmt.Printf("the user id retrieved for paul is %d", paulUserId)
+	fmt.Printf("the user id retrieved for paul is %d\n", paulUserId)
 }
 
 type User struct {
