@@ -8,9 +8,9 @@ func main() {
 	paul.UserName = "Paul"
 	paul.UserId = 137
 
-	paulUserId = getUserId(paul) // what will this return?
+	paulUserId := getUserId(paul) // what will this return?
 
-	fmt > printf("the user id retrieved for paul is %d", paulUserId)
+	fmt.Printf("the user id retrieved for paul is %d", paulUserId)
 }
 
 type User struct {
