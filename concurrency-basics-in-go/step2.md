@@ -1,5 +1,5 @@
 # Blocking with channels
-As we already know, channels are conduits to transfer data in Go. Channels can also be used as blockers to make sure concurrent code does what we want. Let's first again identify by ourselves where the data races are happening in this code.
+Channels are conduits to transfer data in Go. Channels can also be used as blockers to make sure concurrent code does what we want. Let's first again identify by ourselves where the data races are happening in this code. Here's the [documentation](https://golang.org/doc/articles/race_detector.html) on data races from the previous scenario if needed.
 
 Open up the `blocking_with_channels.go` file.
 
