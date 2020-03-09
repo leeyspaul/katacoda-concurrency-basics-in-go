@@ -1,5 +1,5 @@
 # Blocking with WaitGroups
-As we already know, WaitGroups are a goroutine synchronization mechanism where we can force a block until goroutines finish in our code.
+WaitGroups are a goroutine synchronization mechanism where we can force a block until goroutines finish in our code.
 
 Open up the `blocking_with_wg.go` file.
 
