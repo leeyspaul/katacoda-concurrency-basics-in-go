@@ -1,5 +1,5 @@
 {
-  "title": "Concurrency basics with Go",
+  "title": "Avoiding data races in Go",
   "description": "This scenario will teach you the basics of using blocking in Go to handle concurrency.",
   "difficulty": "Beginner",
   "time": "10",
