@@ -11,13 +11,13 @@ Open up the `blocking_with_channels.go` file.
 
 Go ahead and run the code with the `-race` flag to confirm your suspicions and change your answers as needed.
 
-
-# Blocking with unbuffered channels
-Unbuffered channels can be used as defaults to block operations until another operation has finished. 
-
 >>Q3: What operation do we want to block so we don't have a data race?<<
 (*) Read
 ( ) Write
+
+
+# Blocking with unbuffered channels
+Unbuffered channels can be used as defaults to block operations until another operation has finished. Here's [documentation](https://tour.golang.org/concurrency/2) on channels. Take a quick skim of the tour so you familiarize yourself with channels at a high level.
 
 # Challenge
 Change the code using an unbuffered channel to block and synchronize the code so a data race no longer happens. The output should be 200 if the code is synchronized correctly. 
