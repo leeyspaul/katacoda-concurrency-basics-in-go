@@ -34,4 +34,4 @@ Change the code using WaitGroups to block and synchronize the code so a data rac
 # Conclusion
 In this exercise you succesfully implemented WaitGroups to synchronize concurrent code. Great job!
 
-This is just the beginning of writing concurrent code that works in Go! We hope that this was useful in at least getting started and understanding how to identify data races and implement basic blocking with channels and WaitGroups!
+This is just the beginning of writing concurrent code that works in Go! I hope that this was useful in getting started on understanding how to identify data races and implement basic blocking with channels and WaitGroups!
