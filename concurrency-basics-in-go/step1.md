@@ -26,7 +26,7 @@ Run the file with `go run data_race_example.go` in the command line and confirm 
 
 ## Running -race to detect data races
 
-Go's built in `-race` will till you where the data races are with further information.
+Go's built in `-race` will tell you where the data races are with further information.
 
 Run the command `go run -race data_race_example.go`. Compare the output with your answers, if anything is different, change your answers.
 
