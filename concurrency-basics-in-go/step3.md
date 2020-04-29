@@ -1,13 +1,11 @@
 # Blocking with WaitGroups
-WaitGroups are a goroutine synchronization mechanism where we can force a block until goroutines finish in our code.
+WaitGroups are a goroutine synchronization mechanism that can force a block until goroutines finish.
 
-Open up the `blocking_with_wg.go` file.
+Open up the `blocking_with_wg.go` file and use this [documentation](https://golang.org/pkg/sync/) to answer the questions below.
 
 >>Q1: In order to use WaitGroups what package do we need to import?<<
 =~= sync
 
-
-Go ahead and import the corresponding package so we can use WaitGroups. Use your knowledge on WaitGroups and the [docuemtation](https://golang.org/pkg/sync/) to answer the below questions.
 
 >>Q2: What WaitGroup function must we run to tell Go the number of goroutines we want to run?<<
 ( ) Write
@@ -29,9 +27,9 @@ Go ahead and import the corresponding package so we can use WaitGroups. Use your
 
 
 # Challenge
-Change the code using WaitGroups to block and synchronize the code so a data race no longer happens. The output should be 200 if the code is synchronized correctly. 
+Change the code using WaitGroups to synchronize the code. The output should be 200 if the code is synchronized correctly. 
 
 # Conclusion
 In this exercise you succesfully implemented WaitGroups to synchronize concurrent code. Great job!
 
-This is just the beginning of writing concurrent code that works in Go! I hope that this was useful in getting started on understanding how to identify data races and implement basic blocking with channels and WaitGroups!
+In this Katacoda scenario you learned how to test for data races, block with Channels, and block with WaitGroups!
